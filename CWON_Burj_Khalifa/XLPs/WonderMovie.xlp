@@ -10,7 +10,7 @@
 	<m_PackageName text="WonderMovie"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="BUILDING_Burj_Khalifa"/>
+			<m_EntryID text="BUILDING_BURJ_KHALIFA"/>
 			<m_ObjectName text="Burj_Khalifa_Wonder"/>
 		</Element>
 	</m_Entries>

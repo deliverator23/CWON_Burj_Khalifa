@@ -57,22 +57,52 @@
     <Content Include="Materials\Burj_Khalifa.mtl">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\burj_khalifa_diff_2.dds">
+    <Content Include="Textures\Black_Gloss.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\burj_khalifa_diff_2.tex">
+    <Content Include="Textures\Black_Gloss.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\burj_khalifa_gloss_1.dds">
+    <Content Include="Textures\Black_Metalness.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\burj_khalifa_gloss_1.tex">
+    <Content Include="Textures\Black_Metalness.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_TintMask.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_TintMask.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_diff_5.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_diff_5.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_gloss_3.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_gloss_3.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\burj_khalifa_metal_1.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\burj_khalifa_metal_1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Burj_Khalifa_Text.xml">
