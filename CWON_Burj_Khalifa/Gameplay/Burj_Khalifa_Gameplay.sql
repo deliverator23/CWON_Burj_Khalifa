@@ -24,8 +24,9 @@ VALUES	('BURJ_KHALIFA_GRANT_OIL_PER_TURN',	'MODIFIER_SINGLE_CITY_ADJUST_FREE_RES
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_KHALIFA_GRANT_OIL_PER_TURN', 'ResourceType', 'RESOURCE_OIL');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_KHALIFA_GRANT_OIL_PER_TURN', 'Amount', '9');
 
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BURJ_KHALIFA', 'BURJ_KHALIFA_GRANT_OIL_PER_TURN');
 
--- Oil Wells, Oil Rigs and Mines within 9 tiles yield +2 Culture.
+-- Oil Wells, Oil Rigs and Mines within 9 tiles yield +2 Culture.  - works!
 INSERT INTO Requirements
 		(RequirementId,								RequirementType)
 VALUES	('REQUIRES_PLOT_HAS_BURJ_KHALIFA_WITHIN_9',	'REQUIREMENT_PLOT_ADJACENT_BUILDING_TYPE_MATCHES'),
@@ -84,7 +85,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_KHALIFA_AD
 INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BURJ_KHALIFA', 'BURJ_KHALIFA_ADDGOLDYIELD');
 
 
--- +1 Trade Route
+-- +1 Trade Route - works!
 INSERT INTO Modifiers (ModifierId, ModifierType) VALUES ('BURJ_KHALIFA_ADDTRADEROUTE', 'MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY');
 
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BURJ_KHALIFA_ADDTRADEROUTE', 'Amount', '1');
