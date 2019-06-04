@@ -18,12 +18,89 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>CWON_Burj_Khalifa</AssemblyName>
     <RootNamespace>CWON_Burj_Khalifa</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Burj_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Burj_DB"><File>Gameplay/Burj_Khalifa_Gameplay.sql</File></UpdateDatabase><UpdateText id="Burj_Text"><File>Text/Burj_Khalifa_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <None Include="CWON_Burj_Khalifa.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\WonderMovie.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Burj_Khalifa.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Burj_Khalifa_Wonder.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Gameplay\Burj_Khalifa_Gameplay.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Burj_Khalifa.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Burj_Khalifa.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Burj_Khalifa_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Burj_Khalifa.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_diff_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_diff_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_gloss_1.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_gloss_1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_metal_1.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\burj_khalifa_metal_1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Burj_Khalifa_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\strategicview_buildings.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UITextures.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\WonderMovie.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Gameplay\" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Icons\" />
+    <Folder Include="Materials\" />
+    <Folder Include="Textures\" />
+    <Folder Include="Text\" />
+    <Folder Include="XLPs\" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
