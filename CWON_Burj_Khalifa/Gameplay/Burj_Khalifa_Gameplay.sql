@@ -16,7 +16,7 @@ INSERT INTO Building_ValidTerrains (BuildingType, TerrainType)
 VALUES ('BUILDING_BURJ_KHALIFA', 'TERRAIN_DESERT');
 
 
---Awards +9 Oil.
+--Awards +9 Oil. ---
 INSERT INTO Modifiers
 (ModifierId, ModifierType)
 VALUES	('BURJ_KHALIFA_GRANT_OIL_PER_TURN',	'MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION');
