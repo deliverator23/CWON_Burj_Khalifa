@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AssetObjects..ArtDefSet>
+    <m_Version>
+        <major>3</major>
+        <minor>0</minor>
+        <build>215</build>
+        <revision>207</revision>
+    </m_Version>
+    <m_TemplateName text="UserInterfaceBLPs"/>
+    <m_RootCollections/>
+    <m_BLPReferences>
+        <Element>
+            <xlpFile text="UITextures.xlp"/>  
+            <blpPackage text="UITextures.blp"/>
+            <xlpClass text="UITexture"/>
+        </Element>
+    </m_BLPReferences>
+</AssetObjects..ArtDefSet>

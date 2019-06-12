@@ -18,7 +18,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>CWON_Burj_Khalifa</AssemblyName>
     <RootNamespace>CWON_Burj_Khalifa</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Burj_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Burj_DB"><File>Gameplay/Burj_Khalifa_Gameplay.sql</File></UpdateDatabase><UpdateText id="Burj_Text"><File>Text/Burj_Khalifa_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Burj_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Burj_DB"><File>Gameplay/Burj_Khalifa_Gameplay.sql</File></UpdateDatabase><UpdateText id="Burj_Text"><File>Text/Burj_Khalifa_Text.xml</File></UpdateText><UpdateIcons id="Burj_Icon"><File>Icons/Burj_Khalifa_Icons.xml</File></UpdateIcons></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -31,6 +31,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\UserInterface.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\WonderMovie.artdef">
@@ -60,10 +63,19 @@
     <Content Include="Geometries\Burj_Khalifa_HB.geo">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Geometries\WON_Origin_Dummy.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\WON_Origin_Dummy.geo">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Icons\Burj_Khalifa_Icons.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Burj_Decal.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Burj_Decal_PIL.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Burj_Khalifa.mtl">
@@ -99,16 +111,22 @@
     <Content Include="Textures\Burj_Decal2.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\Burj_Decal_PIL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Burj_Decal_PIL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\burj_khalifa_diff_6.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\burj_khalifa_diff_6.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\burj_khalifa_diff_pill.dds">
+    <Content Include="Textures\burj_khalifa_diff_pill2.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\burj_khalifa_diff_pill.tex">
+    <Content Include="Textures\burj_khalifa_diff_pill2.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\burj_khalifa_gloss_4.dds">
@@ -129,10 +147,82 @@
     <Content Include="Textures\Flat_Normal.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_128.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Icon_Burj_Khalifa_64.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\White_AO.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\White_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_Pillaged_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_Pillaged_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_Pillaged_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_Pillaged_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_UnderConstruction_Revealed.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_UnderConstruction_Revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_UnderConstruction_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_UnderConstruction_Visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_Visible.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Wonders_Burj_Khalifa_Visible.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Burj_Khalifa_Text.xml">

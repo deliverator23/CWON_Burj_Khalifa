@@ -5,7 +5,7 @@
 			<Text>Burj Khalifa</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_BURJ_KHALIFA_DESCRIPTION">
-			<Text></Text>
+			<Text>Awards +9 Oil. Oil Wells, Oil Rigs and Mines within 9 tiles yield +2 Culture. +33% Gold in this city. +1 Trade Route.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_BURJ_KHALIFA_QUOTE">
 			<Text>"I am the heart of the city and its people, the marker that defines ... Dubai's shiny dream. More than just a moment in time, I define moments for future generations. I am Burj Khalifa." - inscription at the entrance</Text>
@@ -21,8 +21,3 @@
 		</Row>
 	</EnglishText>
 </GameData>
-
-
-
-
-
