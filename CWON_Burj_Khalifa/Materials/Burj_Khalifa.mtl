@@ -3,7 +3,7 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="burj_khalifa_diff_5"/>
+				<m_ObjectName text="burj_khalifa_diff_6"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="BaseColor"/>
 			</Element>
@@ -22,7 +22,7 @@
 				<m_ParamName text="Seperate_AO_UV"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="burj_khalifa_metal_1"/>
+				<m_ObjectName text="burj_khalifa_metal_2"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Metalness"/>
 			</Element>
@@ -32,7 +32,7 @@
 				<m_ParamName text="TintMask"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="burj_khalifa_gloss_3"/>
+				<m_ObjectName text="burj_khalifa_gloss_4"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Gloss"/>
 			</Element>
