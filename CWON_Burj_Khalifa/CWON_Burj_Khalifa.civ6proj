@@ -39,218 +39,21 @@
     <Content Include="ArtDefs\WonderMovie.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Burj_Khalifa.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\Burj_Khalifa_Wonder.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\PROP_MODCrane_LG_Construction_Anim.ast">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Gameplay\Burj_Khalifa_Gameplay.sql">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\Burj_Khalifa.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\Burj_Khalifa.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\Burj_Khalifa_HB.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\Burj_Khalifa_HB.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\WON_Origin_Dummy.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\WON_Origin_Dummy.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Icons\Burj_Khalifa_Icons.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Materials\Burj_Decal.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\Burj_Decal_PIL.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\Burj_Khalifa.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\Burj_Khalifa_PIL.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\dummymaterial.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_Gloss.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_Gloss.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_Metalness.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_Metalness.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_TintMask.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Black_TintMask.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Burj_Decal2.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Burj_Decal2.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Burj_Decal_PIL.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Burj_Decal_PIL.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\burj_khalifa_diff_6.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\burj_khalifa_diff_6.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\burj_khalifa_diff_pill2.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\burj_khalifa_diff_pill2.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\burj_khalifa_gloss_4.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\burj_khalifa_gloss_4.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\burj_khalifa_metal_2.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\burj_khalifa_metal_2.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Flat_Normal.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Flat_Normal.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_128.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_128.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_256.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_32.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_38.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_50.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_64.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Icon_Burj_Khalifa_64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\White_AO.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\White_AO.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_Pillaged_Revealed.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_Pillaged_Revealed.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_Pillaged_Visible.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_Pillaged_Visible.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_Revealed.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_Revealed.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_UnderConstruction_Revealed.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_UnderConstruction_Revealed.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_UnderConstruction_Visible.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_UnderConstruction_Visible.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_Visible.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Wonders_Burj_Khalifa_Visible.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Text\Burj_Khalifa_Text.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\strategicview_buildings.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\tilebases.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\UITextures.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\WonderMovie.xlp">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArtDefs\" />
-    <Folder Include="Assets\" />
     <Folder Include="Gameplay\" />
-    <Folder Include="Geometries\" />
     <Folder Include="Icons\" />
-    <Folder Include="Materials\" />
-    <Folder Include="Textures\" />
     <Folder Include="Text\" />
-    <Folder Include="XLPs\" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
