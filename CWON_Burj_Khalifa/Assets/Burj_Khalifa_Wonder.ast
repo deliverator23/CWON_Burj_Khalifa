@@ -260,7 +260,7 @@
                         <m_Name text="Burj"/>
                         <m_BoneName text="WON_Bone"/>
                         <m_ModelInstanceName text="WON_Dummy"/>
-                        <m_scale>0.800000</m_scale>
+                        <m_scale>0.68</m_scale>
                     </Element>
                     <Element>
                         <m_CookParams>
@@ -308,7 +308,7 @@
                         <m_Name text="Burj_HB"/>
                         <m_BoneName text="HB_Bone"/>
                         <m_ModelInstanceName text="WON_Dummy"/>
-                        <m_scale>0.800000</m_scale>
+                        <m_scale>0.68</m_scale>
                     </Element>
                     <Element>
                         <m_CookParams>
@@ -344,9 +344,9 @@
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>8.000000</x>
-                            <y>3.900000</y>
-                            <z>40.500000</z>
+                            <x>6.800000</x>
+                            <y>3.315000</y>
+                            <z>34.426</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -392,9 +392,9 @@
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-22.000000</x>
-                            <y>9.000000</y>
-                            <z>0.000000</z>
+                            <x>-18.700000</x>
+                            <y>7.650000</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -440,9 +440,9 @@
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-1.973653</x>
-                            <y>-2.724123</y>
-                            <z>47.500000</z>
+                            <x>-1.677605</x>
+                            <y>-2.315505</y>
+                            <z>40.375</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -488,9 +488,9 @@
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>5.242378</x>
-                            <y>3.166730</y>
-                            <z>47.500000</z>
+                            <x>4.456021</x>
+                            <y>2.691720</y>
+                            <z>40.375</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -498,7 +498,7 @@
                             <z>-2.443461</z>
                         </m_orientation>
                         <m_Name text="Crane1"/>
-                        <m_BoneName text="WON_Dummy"/>
+                        <m_BoneName text="HB_Bone"/>
                         <m_ModelInstanceName text="WON_Dummy"/>
                         <m_scale>1.000000</m_scale>
                     </Element>
@@ -536,9 +536,9 @@
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-5.167235</x>
-                            <y>3.448103</y>
-                            <z>47.500000</z>
+                            <x>-4.392150</x>
+                            <y>2.930888</y>
+                            <z>40.375</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -546,7 +546,7 @@
                             <z>1.745329</z>
                         </m_orientation>
                         <m_Name text="Crane2"/>
-                        <m_BoneName text="WON_Dummy"/>
+                        <m_BoneName text="HB_Bone"/>
                         <m_ModelInstanceName text="WON_Dummy"/>
                         <m_scale>1.000000</m_scale>
                     </Element>
@@ -584,9 +584,9 @@
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>29.752232</x>
-                            <y>13.991024</y>
-                            <z>0.000000</z>
+                            <x>25.289397</x>
+                            <y>11.892370</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -617,24 +617,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>20.479332</x>
-                            <y>2.512937</y>
-                            <z>0.000000</z>
+                            <x>17.407432</x>
+                            <y>2.135996</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -665,24 +653,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>24.110611</x>
-                            <y>5.179298</y>
-                            <z>0.000000</z>
+                            <x>20.494019</x>
+                            <y>4.402403</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -713,24 +689,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>27.627651</x>
-                            <y>9.631454</y>
-                            <z>0.000000</z>
+                            <x>23.483503</x>
+                            <y>8.186736</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -761,24 +725,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>25.929184</x>
-                            <y>20.657860</y>
-                            <z>0.000000</z>
+                            <x>22.039806</x>
+                            <y>17.559181</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -809,24 +761,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>11.826487</x>
-                            <y>17.740625</y>
-                            <z>0.000000</z>
+                            <x>10.052514</x>
+                            <y>15.079531</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -857,24 +797,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>15.165953</x>
-                            <y>18.689348</y>
-                            <z>-0.400982</z>
+                            <x>12.891060</x>
+                            <y>15.885946</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -905,24 +833,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>21.680889</x>
-                            <y>20.567541</y>
-                            <z>0.000000</z>
+                            <x>18.428756</x>
+                            <y>17.482410</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -953,24 +869,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>11.984571</x>
-                            <y>28.332611</y>
-                            <z>0.000000</z>
+                            <x>10.186885</x>
+                            <y>24.082719</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1001,24 +905,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>12.394378</x>
-                            <y>21.482731</y>
-                            <z>0.000000</z>
+                            <x>10.535221</x>
+                            <y>18.260321</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1049,24 +941,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>17.755960</x>
-                            <y>19.894260</y>
-                            <z>0.000000</z>
+                            <x>15.092566</x>
+                            <y>16.910121</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1097,24 +977,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>12.425751</x>
-                            <y>24.502901</y>
-                            <z>0.000000</z>
+                            <x>10.561888</x>
+                            <y>20.827466</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1145,24 +1013,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>29.939230</x>
-                            <y>-2.630993</y>
-                            <z>0.000000</z>
+                            <x>25.448345</x>
+                            <y>-2.236344</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1193,24 +1049,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>26.947992</x>
-                            <y>-0.639460</y>
-                            <z>0.000000</z>
+                            <x>22.905793</x>
+                            <y>-0.543541</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1234,18 +1078,6 @@
                                     <m_ParamName text="Asset"/>
                                 </Element>
                                 <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text="Landmarks.artdef"/>
-                                    <m_CollectionIsLocked>true</m_CollectionIsLocked>
-                                    <m_TemplateName text="Landmarks"/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
-                                <Element class="AssetObjects..StringValue">
                                     <m_Value text="Pivot Height"/>
                                     <m_ParamName text="TerrainFollowMode"/>
                                 </Element>
@@ -1256,9 +1088,9 @@
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>23.713121</x>
-                            <y>1.771422</y>
-                            <z>0.000000</z>
+                            <x>20.156153</x>
+                            <y>1.505709</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1289,24 +1121,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-26.992790</x>
-                            <y>18.770544</y>
-                            <z>0.000000</z>
+                            <x>-22.943872</x>
+                            <y>15.954962</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1337,24 +1157,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-2.759541</x>
-                            <y>-32.761700</y>
-                            <z>0.000000</z>
+                            <x>-2.345610</x>
+                            <y>-27.847445</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1385,24 +1193,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-12.416014</x>
-                            <y>16.479092</y>
-                            <z>0.000000</z>
+                            <x>-10.553612</x>
+                            <y>14.007228</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1433,24 +1229,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-8.063403</x>
-                            <y>-18.992088</y>
-                            <z>0.000000</z>
+                            <x>-6.853893</x>
+                            <y>-16.143275</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1481,24 +1265,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-16.540798</x>
-                            <y>18.290672</y>
-                            <z>0.000000</z>
+                            <x>-14.059678</x>
+                            <y>15.547071</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1529,24 +1301,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-7.569907</x>
-                            <y>-23.470049</y>
-                            <z>0.000000</z>
+                            <x>-6.434421</x>
+                            <y>-19.949542</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1577,24 +1337,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-22.155003</x>
-                            <y>19.110413</y>
-                            <z>0.000000</z>
+                            <x>-18.831753</x>
+                            <y>16.243851</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1625,24 +1373,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-5.472748</x>
-                            <y>-28.741974</y>
-                            <z>0.000000</z>
+                            <x>-4.651836</x>
+                            <y>-24.430678</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1673,24 +1409,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-30.854883</x>
-                            <y>12.126251</y>
-                            <z>0.000000</z>
+                            <x>-26.226651</x>
+                            <y>10.307313</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1721,24 +1445,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>3.421499</x>
-                            <y>-31.717146</y>
-                            <z>0.000000</z>
+                            <x>2.908274</x>
+                            <y>-26.959574</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1769,24 +1481,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-21.277082</x>
-                            <y>1.371621</y>
-                            <z>0.000000</z>
+                            <x>-18.085520</x>
+                            <y>1.165878</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1817,24 +1517,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>9.450585</x>
-                            <y>-19.112352</y>
-                            <z>0.000000</z>
+                            <x>8.032997</x>
+                            <y>-16.245499</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1865,24 +1553,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-23.768444</x>
-                            <y>3.789310</y>
-                            <z>0.000000</z>
+                            <x>-20.203177</x>
+                            <y>3.220913</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1913,24 +1589,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>8.602469</x>
-                            <y>-22.478777</y>
-                            <z>0.000000</z>
+                            <x>7.312099</x>
+                            <y>-19.106960</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -1961,24 +1625,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-28.652498</x>
-                            <y>8.492290</y>
-                            <z>0.000000</z>
+                            <x>-24.354623</x>
+                            <y>7.218447</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2009,24 +1661,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>6.971563</x>
-                            <y>-29.059973</y>
-                            <z>0.000000</z>
+                            <x>5.925829</x>
+                            <y>-24.700977</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2057,24 +1697,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-30.529028</x>
-                            <y>-3.787512</y>
-                            <z>0.000000</z>
+                            <x>-25.949674</x>
+                            <y>-3.219385</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2105,24 +1733,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>18.544470</x>
-                            <y>-24.545252</y>
-                            <z>0.000000</z>
+                            <x>15.762799</x>
+                            <y>-20.863464</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2153,24 +1769,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-24.801781</x>
-                            <y>-0.007641</y>
-                            <z>0.000000</z>
+                            <x>-21.081514</x>
+                            <y>-0.006495</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2201,24 +1805,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>12.407397</x>
-                            <y>-21.475214</y>
-                            <z>0.000000</z>
+                            <x>10.546287</x>
+                            <y>-18.253932</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2249,24 +1841,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-26.106941</x>
-                            <y>5.429855</y>
-                            <z>0.000000</z>
+                            <x>-22.190900</x>
+                            <y>4.615377</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2297,24 +1877,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>8.350949</x>
-                            <y>-25.324244</y>
-                            <z>0.000000</z>
+                            <x>7.098307</x>
+                            <y>-21.525607</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2345,24 +1913,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-27.433002</x>
-                            <y>-1.490569</y>
-                            <z>0.000000</z>
+                            <x>-23.318052</x>
+                            <y>-1.266984</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2393,24 +1949,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>15.007255</x>
-                            <y>-23.012470</y>
-                            <z>0.000000</z>
+                            <x>12.756167</x>
+                            <y>-19.560599</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2441,24 +1985,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-12.691242</x>
-                            <y>27.243568</y>
-                            <z>0.000000</z>
+                            <x>-10.787556</x>
+                            <y>23.157033</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2489,24 +2021,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-17.248127</x>
-                            <y>-24.612635</y>
-                            <z>0.000000</z>
+                            <x>-14.660908</x>
+                            <y>-20.920740</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2537,24 +2057,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-12.920323</x>
-                            <y>23.657312</y>
-                            <z>0.000000</z>
+                            <x>-10.982275</x>
+                            <y>20.108715</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2585,24 +2093,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-14.027789</x>
-                            <y>-23.017914</y>
-                            <z>0.000000</z>
+                            <x>-11.923621</x>
+                            <y>-19.565227</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2633,24 +2129,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-13.390753</x>
-                            <y>19.650389</y>
-                            <z>0.000000</z>
+                            <x>-11.382140</x>
+                            <y>16.702831</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2681,24 +2165,12 @@
                                     <m_Value text="OPTIONAL"/>
                                     <m_ParamName text="Cull Mode"/>
                                 </Element>
-                                <Element class="AssetObjects..StringValue">
-                                    <m_Value text="NONE"/>
-                                    <m_ParamName text="ConnectionType"/>
-                                </Element>
-                                <Element class="AssetObjects..ArtDefReferenceValue">
-                                    <m_ElementName text="DON'T CARE"/>
-                                    <m_RootCollectionName text="ResourceTags"/>
-                                    <m_ArtDefPath text=""/>
-                                    <m_CollectionIsLocked>false</m_CollectionIsLocked>
-                                    <m_TemplateName text=""/>
-                                    <m_ParamName text="ResourceType"/>
-                                </Element>
                             </m_Values>
                         </m_CookParams>
                         <m_position>
-                            <x>-10.322468</x>
-                            <y>-21.421873</y>
-                            <z>0.000000</z>
+                            <x>-8.774098</x>
+                            <y>-18.208592</y>
+                            <z>0</z>
                         </m_position>
                         <m_orientation>
                             <x>0.000000</x>
@@ -2726,8 +2198,8 @@
                 <m_GroupStates/>
             </Element>
             <Element>
-                <m_Name text="TerrainElement_SingleHex_Decal"/>
-                <m_GeoName text="TerrainElement_SingleHex_Decal"/>
+                <m_Name text="TerrainElement_SingleHex_Decal_085"/>
+                <m_GeoName text="TerrainElement_SingleHex_Decal_085"/>
                 <m_GroupStates>
                     <Element>
                         <m_Values>
@@ -2769,7 +2241,7 @@
                         <m_Values>
                             <m_Values>
                                 <Element class="AssetObjects..ObjectValue">
-                                    <m_ObjectName text="Burj_Decal_PIL"/>
+                                    <m_ObjectName text="Burj_Decal"/>
                                     <m_eObjectType>MATERIAL</m_eObjectType>
                                     <m_ParamName text="Material"/>
                                 </Element>
