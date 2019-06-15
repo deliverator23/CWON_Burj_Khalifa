@@ -26,8 +26,8 @@
 	<m_GeometrySet>
 		<m_ModelInstances>
 			<Element>
-				<m_Name text="Burj_Khalifa"/>
-				<m_GeoName text="Burj_Khalifa"/>
+				<m_Name text="Burj_Khalifa_HB"/>
+				<m_GeoName text="Burj_Khalifa_HB"/>
 				<m_GroupStates>
 					<Element>
 						<m_Values>
@@ -43,8 +43,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Burj_Khalifa"/>
-						<m_MeshName text="Burj_Mesh"/>
+						<m_GroupName text="Burj_Khalifa_HB"/>
+						<m_MeshName text="Burj_HB_Mesh"/>
 						<m_StateName text="Worked"/>
 					</Element>
 					<Element>
@@ -61,15 +61,15 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Burj_Khalifa"/>
-						<m_MeshName text="Burj_Mesh"/>
+						<m_GroupName text="Burj_Khalifa_HB"/>
+						<m_MeshName text="Burj_HB_Mesh"/>
 						<m_StateName text="Unworked"/>
 					</Element>
 					<Element>
 						<m_Values>
 							<m_Values>
 								<Element class="AssetObjects:ObjectValue">
-									<m_ObjectName text="Burj_Khalifa"/>
+									<m_ObjectName text="Burj_Khalifa_PIL"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
@@ -79,8 +79,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Burj_Khalifa"/>
-						<m_MeshName text="Burj_Mesh"/>
+						<m_GroupName text="Burj_Khalifa_HB"/>
+						<m_MeshName text="Burj_HB_Mesh"/>
 						<m_StateName text="Pillaged"/>
 					</Element>
 				</m_GroupStates>
@@ -168,7 +168,8 @@
 	<m_Materials/>
 	<m_ClassName text="TileBase"/>
 	<m_DataFiles/>
-	<m_Name text="Burj_Khalifa"/>
+	<m_Name text="Burj_Khalifa_HB"/>
+	<m_Description text=""/>
 	<m_Description text=""/>
 	<m_Tags>
 		<Element text="TileBase"/>
