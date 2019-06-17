@@ -45,6 +45,16 @@
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Opacity"/>
 			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="Burj_Khalifa_E3"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Emissive"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="Burj_Khalifa_l"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="LightMap"/>
+			</Element>
 		</m_Values>
 	</m_CookParams>
 	<m_Version>
