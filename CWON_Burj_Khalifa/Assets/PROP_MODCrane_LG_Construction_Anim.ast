@@ -3,12 +3,7 @@
 	<m_BehaviorData>
 		<m_behaviorDataSets>
 			<m_animationBindings>
-				<m_Bindings>
-					<Element>
-						<m_SlotName text="CONSTRUCTION_A"/>
-						<m_AnimationName text="PROP_MODCrane_LG_Anim001"/>
-					</Element>
-				</m_Bindings>
+				<m_Bindings/>
 			</m_animationBindings>
 			<m_timelineBindings>
 				<m_Bindings/>
