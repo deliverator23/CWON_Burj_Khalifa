@@ -2282,7 +2282,7 @@
                                     <m_ParamName text="Material"/>
                                 </Element>
                                 <Element class="AssetObjects..BoolValue">
-                                    <m_bValue>false</m_bValue>
+                                    <m_bValue>true</m_bValue>
                                     <m_ParamName text="Visible"/>
                                 </Element>
                             </m_Values>
@@ -2300,7 +2300,7 @@
                                     <m_ParamName text="Material"/>
                                 </Element>
                                 <Element class="AssetObjects..BoolValue">
-                                    <m_bValue>false</m_bValue>
+                                    <m_bValue>true</m_bValue>
                                     <m_ParamName text="Visible"/>
                                 </Element>
                             </m_Values>
@@ -2318,7 +2318,7 @@
                                     <m_ParamName text="Material"/>
                                 </Element>
                                 <Element class="AssetObjects..BoolValue">
-                                    <m_bValue>false</m_bValue>
+                                    <m_bValue>true</m_bValue>
                                     <m_ParamName text="Visible"/>
                                 </Element>
                             </m_Values>
